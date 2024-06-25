@@ -5,7 +5,7 @@
     "image": "",
     "email": "aritra.chakrabarty@colorado.edu",
     "phone": "+1-734-773-6159",
-    "url": "https://www.linkedin.com/in/aritra-chakrabarty-739875120/",
+    "url": "",
     "summary": "Graduate student in Electrical Engineering with experience in vehicle system integration and testing, specializing in ADAS features.",
     "location": {
       "address": "",
@@ -84,7 +84,7 @@
   ],
   "volunteer": [
     {
-      "organization": "University of Michigan",
+      "organization": "",
       "location": "MI",
       "position": "Team Lead - SAE Baja",
       "url": "",
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "organization": "University of Michigan",
+      "organization": "",
       "location": "MI",
       "position": "Chair of Senate, Student Government",
       "url": "",
@@ -135,7 +135,7 @@
   ],
   "skills": [
     {
-      "name": "Languages",
+      "name": "Programming Languages",
       "level": "",
       "icon": "",
       "keywords": ["Python", "Julia", "MATLAB", "C++", "C"]
