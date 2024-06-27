@@ -8,7 +8,7 @@ middle_name:
 last_name: Chakrabarty
 email: aritrac@umich.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-    Portfolio page for Aritra Chakrabarty, a graduate student in AI, with an interest in autonomous vehicles
+    Portfolio page for Aritra Chakrabarty, a graduate student in AI & robotics, with an interest in autonomous vehicles
 #  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -112,7 +112,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  Feel free to send me an email if you want to get in touch!
+  The best way to reach me is via email!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -124,7 +124,7 @@ google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
+google_site_verification: _zn6ijVsVJIiSu3T2OY4nUmi25MmFkN0eJ5CP8uIldo # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
@@ -220,7 +220,7 @@ kramdown:
 include:
   - _pages/about.md
   - _pages/cv.md
-  - _pages/teaching.md
+  - _pages/coursework.md
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -412,9 +412,9 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: false # enables google analytics
+enable_google_analytics: true # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
-enable_google_verification: false # enables google site verification
+enable_google_verification: true # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
