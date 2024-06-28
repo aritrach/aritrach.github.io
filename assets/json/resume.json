@@ -4,12 +4,12 @@
     "label": "Graduate Student",
     "image": "",
     "email": "aritra.chakrabarty@colorado.edu",
-    "phone": "+1-734-773-6159",
-    "url": "",
+    "phone": "",
+    "url": "www.aritrac.com",
     "summary": "Graduate student in Electrical Engineering with experience in vehicle system integration and testing, specializing in ADAS features.",
     "location": {
       "address": "",
-      "postalCode": "",
+      "postalCode": "80303",
       "city": "Boulder",
       "countryCode": "US",
       "region": "Colorado"
@@ -164,15 +164,15 @@
   "languages": [
     {
     "language": "English",
-    "fluency": "Native speaker"
+    "fluency": "Native"
     },
     {
       "language": "Bangla",
-      "fluency": "Native speaker"
+      "fluency": "Native"
     },
     {
       "language": "French",
-      "fluency":"Beginner"
+      "fluency":"Beginner/Intermediate"
     }
   ],
   "interests": [],
