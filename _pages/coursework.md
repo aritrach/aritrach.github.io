@@ -12,12 +12,10 @@ nav_order: 6
 </div>
 
 <div class="course">
-  <h2 class="course-title">Advanced Robotics - CSCI 5302</h2>
-
+  <h2 class="course-title">CSCI 5302 - Advanced Robotics</h2>
   <div class="course-topics">
     <em>Topics Learned:</em> Robot Operating System (ROS), Kinematics and Controls, Motion Planning, Convex Optimization, Function Approximation, State Estimation (Bayes Filters, Kalman Filters, EKF, UKF), SLAM (Simultaneous Localization and Mapping), Partial Observability, Deep Reinforcement Learning, Safe Task and Motion Planning, Explainable AI, Intelligent Tutoring, Human-Agent Teaming, Collaborative AI
   </div>
-
   <div class="row mt-1">
     <div class="col-md-4 text-center">
       {% include figure.liquid 
@@ -31,7 +29,6 @@ nav_order: 6
         The final AWS Deepracer navigating a hallway, as fast as it can without crashing!
       </div>
     </div>
-
     <div class="col-md-8">
       <h3>Assignments & Project</h3>
       <ul class="assignments-list">
@@ -52,13 +49,11 @@ nav_order: 6
   </div>
 </div>
 
-
 <div class="course">
-  <h2 class="course-title">Machine Learning - CSCI 5622</h2>
+  <h2 class="course-title">CSCI 5622 - Machine Learning</h2>
   <div class="course-topics">
     <em>Topics Learned:</em> KNN, Linear Perceptrons, Linear & Logistic Regression, Deep Neural Networks, Explainable AI (LIME), Decision Trees & Random Forests, Dimensionality Reduction (PCA), Clustering, Ensemble Methods (Bagging, Boosting, Combination methods), Model Evaluation & Hyperparameter Tuning
   </div>
-
   <h3>Assignments</h3>
   <a href="/coursework_samples/ML_HW2.pdf" class="sample-link">Sample</a>
   <ul class="assignments-list">
@@ -81,12 +76,12 @@ nav_order: 6
 </div>
 
 <div class="course">
-  <h2 class="course-title">Decision Making under Uncertainty - ASEN/CSCI 5264</h2>
+  <h2 class="course-title">ASEN/CSCI 5264 - Decision Making under Uncertainty</h2>
   <div class="course-topics">
     <em>Topics Learned:</em> Bayesian Networks, Markov Decision Processes (Value Iteration, Policy Iteration, Policy Evaluation), Reinforcement Learning (Model-based, Tabular, Policy Gradient, SARSA, Q-Learning), Neural Networks, Deep Q-Networks (DQN), Advanced Policy Gradient, Actor-Critic Methods, Entropy Regularization, Partially Observable Markov Decision Processes (Offline & Online solution Methods), Particle Filters, Basic Game Theory, Partially Observable Markov Games, Bayesian Network Learning, Imitation Learning, Inverse RL
   </div>
 
-  <h3>Assignments & Project</h3>
+  <h3>Assignments</h3>
   <a href="/coursework_samples/DMU_HW5.pdf" class="sample-link">Sample</a>
   <ul class="assignments-list">
     <li>
@@ -108,9 +103,30 @@ nav_order: 6
 </div>
 
 <div class="course">
-  <h2 class="course-title">Random Processes - ECEN 5612</h2>
+  <h2 class="course-title">ECEN 5612 - Random Processes</h2>
+  <div class="course-topics">
+    <em>Topics Learned:</em> Probability, Discrete Random Variables, Continuous Random Variables, Cumulative Distribution Functions, Bivariate Random Variables, Random Vectors, Minimum Mean-Square Error Estimation, Gaussian Random Vectors, Markov Processes, Poisson Processes, Wiener Processes, Linear Systems with Random Inputs, Wiener Filtering, Convergence of Random Sequences, Markov Chains
+  </div>
 </div>
 
 <div class="course">
-  <h2 class="course-title">Fundamentals of Systems Engineering - EMEN 5405</h2>
+  <h2 class="course-title">EMEN 5405 - Fundamentals of Systems Engineering</h2>
+  <div class="course-topics">
+    <em>Topics Learned:</em> The Systems Engineering Process, System Design Requirements, Engineering Design Methods and Tools, Design Review and Evaluation, System Engineering Program Planning, Organization for Systems Engineering, System Engineering Program Evaluation, Life Cycle of Systems, Requirements Analysis, Functional Analysis, Trade Studies, Risk Management, Integrated Product and Process Development (IPPD), Benchmarking Best Practices, Program Reporting and Feedback
+  </div>
+  <h3>Project</h3>
+  <p class="project-description">
+    The class culminated with a final project where we worked in groups to design a system. We chose to design a targeting system for the Phalanx Block 1B Close-In Weapon System (CIWS) used by the U.S. Navy, focusing on integrating a sensor suite and display/control system to enhance target detection and tracking capabilities in various environmental conditions.
+  </p>
+  <ul class="assignments-list">
+    <li>
+      Created functional and physical block diagrams, allocated requirements to subsystems, and developed a specification compliance matrix to ensure all requirements were met.
+    </li>
+    <li>
+      Conducted a technology readiness assessment (TRA) for the tracking software, performed a trade study for the best display option, and identified key performance measures (TPM) to monitor design maturity.
+    </li>
+    <li>
+      Developed a detailed test plan, analyzed potential risks, and created a comprehensive program schedule and work breakdown structure (WBS) to manage the project timeline and tasks.
+    </li>
+  </ul>
 </div>
