@@ -1,25 +1,27 @@
 ---
 layout: about
-title: about
+title: About Me
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Master's Student at CU-Boulder, Autonomous Vehicle Enthusiast
+
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+  more_info:
+  
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+Hi! 👋
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm currently a graduate student in the <a href='https://www.colorado.edu/ecee/'>Electrical, Computer & Energy Engineering Department</a> at the University of Colorado Boulder. I take many courses related to AI and Robotics, as I find the world of autonomous systems truly fascinating!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously, I worked in various system verification and validation roles at APTIV, focusing on L2+ Advanced Driver Assistance Systems. I hold a Bachelor of Science in Mechanical Engineering from the University of Michigan.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My passion lies at the intersection of AI and robotics, where I aim to work with intelligent systems that enhance autonomous capabilities. During my master's, I've worked on multiple projects, including using ROS2 for autonomous controls, applying basic machine learning to healthcare applications, and employing reinforcement learning and advanced techniques for decision-making under uncertainty.
+
+I enjoy learning about AI, working on personal projects, and expanding my understanding of the CS world. In my free time, I like to go to the gym and spend time with my family and friends.

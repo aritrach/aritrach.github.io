@@ -1,0 +1,59 @@
+.coursework-intro {
+    font-size: 1.1em;
+    margin-bottom: 1.5em;
+    color: var(--global-text-color-light);
+}
+
+.course {
+    margin-bottom: 2em;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px var(--global-theme-color);
+    padding: 1.5em;
+}
+
+.course-topics {
+    font-size: 0.9em;
+    color: var(--global-text-color-light);
+    margin-bottom: 1.5em;
+}
+
+.sample-link {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: var(--global-theme-color);
+    text-decoration: none;
+}
+
+.assignments-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.assignments-list li {
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+    position: relative;
+}
+
+.assignments-list li:before {
+    content: "•";
+    color: var(--global-theme-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.course-title {
+    margin-bottom: 0.5em;
+}
+
+.project-description {
+    font-size: 1.05em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    color: var(--global-text-color-light);
+    line-height: 1.6;
+}
