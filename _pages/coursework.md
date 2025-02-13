@@ -2,7 +2,7 @@
 layout: page
 permalink: /coursework/
 title: Coursework
-description: Coursework and related projects that I have completed during my Master's degree
+description: Coursework and related projects that I have completed during my Master's 🎓
 nav: true
 nav_order: 3
 ---
@@ -83,7 +83,7 @@ nav_order: 3
   </div>
 
   <h3>Assignments & Project</h3>
-  <a href="/coursework_samples/DMU_HW5.pdf" class="sample-link">Sample</a>
+  <a href="/coursework_samples/DMU_HW5.pdf" class="sample-link">Sample of my work</a>
   <ul class="assignments-list">
     <li>
       Implemented Online MDP Methods using Dense Grid World simulations; developed Monte Carlo Policy Evaluation and heuristic policies to enhance baseline performance. Conducted experiments with Monte Carlo Tree Search to optimize decision-making processes.
@@ -111,7 +111,7 @@ nav_order: 3
     <em>Topics Learned:</em> KNN, Linear Perceptrons, Linear & Logistic Regression, Deep Neural Networks, Explainable AI (LIME), Decision Trees & Random Forests, Dimensionality Reduction (PCA), Clustering, Ensemble Methods (Bagging, Boosting, Combination methods), Model Evaluation & Hyperparameter Tuning
   </div>
   <h3>Assignments</h3>
-  <a href="/coursework_samples/ML_HW2.pdf" class="sample-link">Sample</a>
+  <a href="/coursework_samples/ML_HW2.pdf" class="sample-link">Sample of my work</a>
   <ul class="assignments-list">
     <li>
       Analyzed breast cancer data to predict patient survival using K-Nearest Neighbors (K-NN) classifiers, adjusting distance metrics and K values to optimize prediction accuracy based on comprehensive performance metrics (Acc, BAcc, F1).
@@ -140,7 +140,7 @@ nav_order: 3
   </div>
 
   <h3>Assignments</h3>
-  <a href="/coursework_samples/Chakrabarty_final.pdf" class="sample-link">Sample</a>
+  <a href="/coursework_samples/CVX_HW5_Chakrabarty.pdf" class="sample-link">Sample of my work</a>
   <ul class="assignments-list">
     <li>
       Formulated and solved constrained optimization problems using CVXPY, implementing interior-point methods for high-dimensional convex problems.
@@ -166,7 +166,7 @@ nav_order: 3
   </div>
 
   <h3>Assignments & Project</h3>
-  <a href="/coursework_samples/5014_homework5_chakrabarty.pdf" class="sample-link">Sample</a>
+  <a href="/coursework_samples/5014_homework5_chakrabarty.pdf" class="sample-link">Sample of my work</a>
   <ul class="assignments-list">
     <li>
       Developed state-space models for dynamic systems and evaluated controllability, observability, and stability properties.

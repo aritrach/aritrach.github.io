@@ -186,6 +186,7 @@ include: #["_pages", "_scripts"]
   - _pages/cv.md
   - _pages/coursework.md
   - _pages/blog.md
+  - _scripts
 exclude:
   - _news/
   #- _posts/
@@ -249,7 +250,7 @@ sass:
 
 jekyll-minifier:
   compress_javascript: false # set to false since we are using terser as the js minifier
-  # exclude: ["robots.txt", "assets/js/search/*.js"]
+  exclude: ["robots.txt", "assets/js/search/*.js", "assets/js/search-data.js"]
 
 # -----------------------------------------------------------------------------
 # Terser
@@ -395,10 +396,10 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # -----------------------------------------------------------------------------
 
 enable_google_analytics: true # enables google analytics
-enable_cronitor_analytics: true # enables cronitor RUM analytics
+enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
-enable_google_verification: false # enables google site verification
+enable_google_verification: true # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
