@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Aritra Chakrabarty",
-    "label": "Graduate Student",
+    "label": "PhD Student",
     "image": "",
     "email": "aritra.chakrabarty@colorado.edu",
     "phone": "",
     "url": "www.aritrac.com",
-    "summary": "Graduate student in Electrical Engineering with experience in vehicle system integration and testing, specializing in ADAS features.",
+    "summary": "PhD student in Computer Science at CU Boulder researching safe AI for robotics, with prior experience in vehicle system integration and ADAS testing.",
     "location": {
       "address": "",
       "postalCode": "80303",
@@ -27,8 +27,8 @@
       "name": "APTIV",
       "position": "Lead Vehicle Systems Test Engineer",
       "url": "",
-      "startDate": "2022-02-01",
-      "endDate": "2023-06-01",
+      "startDate": "2022-02",
+      "endDate": "2023-06",
       "summary": "Managed testing tasks for vehicle level system testing and was the lead technical contact for team members and stakeholders.",
       "highlights": [
         "Aligned scope and milestone-based timing.",
@@ -43,8 +43,8 @@
       "name": "APTIV",
       "position": "Vehicle Systems Test Engineer",
       "url": "",
-      "startDate": "2021-05-01",
-      "endDate": "2022-01-01",
+      "startDate": "2021-05",
+      "endDate": "2022-01",
       "summary": "Conducted closed-course vehicle testing on various test tracks and proving grounds.",
       "highlights": [
         "Specified instrumentation and equipment for test vehicles.",
@@ -57,8 +57,8 @@
       "name": "APTIV",
       "position": "Vehicle Systems Integration Engineer",
       "url": "",
-      "startDate": "2020-09-01",
-      "endDate": "2021-04-01",
+      "startDate": "2020-09",
+      "endDate": "2021-04",
       "summary": "Brought up ADAS/AD systems on both bench and vehicle level using CAN tools.",
       "highlights": [
         "Developed and debugged test system configurations.",
@@ -72,8 +72,8 @@
       "name": "SGS IBR Laboratories (Contracted through Kelly Engineering Services)",
       "position": "Test Engineer I",
       "url": "",
-      "startDate": "2020-06-01",
-      "endDate": "2020-09-01",
+      "startDate": "2020-06",
+      "endDate": "2020-09",
       "summary": "Performed test procedures for filtration systems and masks (NIOSH, AFNOR).",
       "highlights": [
         "Calculated and diagrammed detailed test setups.",
@@ -88,8 +88,8 @@
       "location": "MI",
       "position": "Team Lead - SAE Baja",
       "url": "",
-      "startDate": "2018-09-01",
-      "endDate": "2020-04-01",
+      "startDate": "2018-09",
+      "endDate": "2020-04",
       "summary": "Led the reports team and co-captained the team during the 2018 season.",
       "highlights": [
         "Designed & built gearbox for power transmission.",
@@ -101,8 +101,8 @@
       "location": "MI",
       "position": "Chair of Senate, Student Government",
       "url": "",
-      "startDate": "2018-09-01",
-      "endDate": "2019-04-01",
+      "startDate": "2018-09",
+      "endDate": "2019-04",
       "summary": "Led a team of Senators to achieve their improvement goals for the university.",
       "highlights": [
         "Worked on multiple committees and meetings involving school officials and faculty."
@@ -114,10 +114,21 @@
       "institution": "University of Colorado - Boulder",
       "location": "CO",
       "url": "",
+      "area": "Computer Science",
+      "studyType": "Doctor of Philosophy",
+      "startDate": "2025",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "University of Colorado - Boulder",
+      "location": "CO",
+      "url": "",
       "area": "Electrical Engineering",
       "studyType": "Master of Science",
-      "startDate": "2023-01-01",
-      "endDate": "2025-05-01",
+      "startDate": "2023",
+      "endDate": "2025",
       "score": "4.0",
       "courses": []
     },
@@ -127,8 +138,8 @@
       "url": "",
       "area": "Mechanical Engineering",
       "studyType": "Bachelor of Science",
-      "startDate": "2016-01-01",
-      "endDate": "2020-05-01",
+      "startDate": "2016",
+      "endDate": "2020",
       "score": "4.0",
       "courses": []
     }
