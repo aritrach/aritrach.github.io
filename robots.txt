@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://aritrach.github.io/sitemap.xml
+Sitemap: https://aritrac.com/sitemap.xml
