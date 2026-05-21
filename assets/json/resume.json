@@ -4,11 +4,9 @@
     "label": "PhD Student",
     "image": "",
     "email": "aritra.chakrabarty@colorado.edu",
-    "phone": "",
     "url": "www.aritrac.com",
     "summary": "PhD student in Computer Science at CU Boulder researching safe AI for robotics, with prior experience in vehicle system integration and ADAS testing.",
     "location": {
-      "address": "",
       "postalCode": "80303",
       "city": "Boulder",
       "countryCode": "US",
@@ -26,6 +24,7 @@
     {
       "name": "APTIV",
       "position": "Lead Vehicle Systems Test Engineer",
+      "location": "MI",
       "url": "",
       "startDate": "2022-02",
       "endDate": "2023-06",
@@ -42,6 +41,7 @@
     {
       "name": "APTIV",
       "position": "Vehicle Systems Test Engineer",
+      "location": "MI",
       "url": "",
       "startDate": "2021-05",
       "endDate": "2022-01",
@@ -56,6 +56,7 @@
     {
       "name": "APTIV",
       "position": "Vehicle Systems Integration Engineer",
+      "location": "MI",
       "url": "",
       "startDate": "2020-09",
       "endDate": "2021-04",
@@ -71,6 +72,7 @@
     {
       "name": "SGS IBR Laboratories (Contracted through Kelly Engineering Services)",
       "position": "Test Engineer I",
+      "location": "MI",
       "url": "",
       "startDate": "2020-06",
       "endDate": "2020-09",
@@ -144,48 +146,49 @@
       "courses": []
     }
   ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
       "name": "Programming Languages",
-      "level": "",
       "icon": "",
       "keywords": ["Python", "Julia", "MATLAB", "C++", "C"]
     },
     {
       "name": "Technologies",
-      "level": "",
       "icon": "",
       "keywords": ["ROS2", "Vector CAN tools", "Polarion", "JIRA", "Solidworks"]
     },
     {
       "name": "Libraries",
-      "level": "",
       "icon": "",
       "keywords": ["pandas", "NumPy", "seaborn", "Matplotlib", "scikit-learn", "TensorFlow", "Keras", "Hyperopt", "Flux.jl", "POMDPs.jl"]
     },
     {
       "name": "Dev Tools",
-      "level": "",
       "icon": "",
       "keywords": ["Git", "Google Colab"]
     }
   ],
-  "certificates": [],
-  "publications": [],
   "languages": [
     {
-    "language": "English",
-    "fluency": "Native"
+      "language": "English",
+      "fluency": "Native",
+      "icon": ""
     },
     {
       "language": "Bangla",
-      "fluency": "Native"
+      "fluency": "Native",
+      "icon": ""
     },
     {
       "language": "French",
-      "fluency":"Beginner/Intermediate"
+      "fluency": "Beginner/Intermediate",
+      "icon": ""
     }
   ],
   "interests": [],
-  "references": []
+  "references": [],
+  "projects": []
 }

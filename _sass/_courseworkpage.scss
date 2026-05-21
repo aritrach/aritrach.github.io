@@ -1,59 +1,156 @@
+@use "variables" as v;
+
 .coursework-intro {
-    font-size: 1.1em;
-    margin-bottom: 1.5em;
-    color: var(--global-text-color-light);
+  font-size: 1.05em;
+  margin-bottom: 2em;
+  color: var(--global-text-color-light);
+  line-height: 1.6;
+}
+
+.coursework-section-title {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 2em 0 1em;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid var(--global-theme-color);
+  color: var(--global-text-color);
 }
 
 .course {
-    margin-bottom: 2em;
-    background-color: var(--global-bg-color);
-    border: 1px solid var(--global-border-color);
-    border-radius: 0.5rem;
-    box-shadow: 0 1px 3px var(--global-theme-color);
-    padding: 1.5em;
-}
+  margin-bottom: 1.5em;
+  background-color: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-left: 3px solid var(--global-theme-color);
+  border-radius: 0.25rem;
+  padding: 1.25em 1.5em;
+  transition: box-shadow 0.2s ease;
 
-.course-topics {
-    font-size: 0.9em;
-    color: var(--global-text-color-light);
-    margin-bottom: 1.5em;
-}
-
-.sample-link {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 1em;
-    color: var(--global-theme-color);
-    text-decoration: none;
-}
-
-.assignments-list {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.assignments-list li {
-    margin-bottom: 1em;
-    padding-left: 1.5em;
-    position: relative;
-}
-
-.assignments-list li:before {
-    content: "•";
-    color: var(--global-theme-color);
-    font-weight: bold;
-    position: absolute;
-    left: 0;
+  &:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
 }
 
 .course-title {
-    margin-bottom: 0.5em;
+  font-size: 1.15em;
+  font-weight: 600;
+  margin-bottom: 0.6em;
+}
+
+.course-topics {
+  margin-bottom: 1em;
+}
+
+.topic-label {
+  font-size: 0.85em;
+  font-weight: 500;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.4em;
+}
+
+.topic-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em;
+}
+
+.topic-tag {
+  display: inline-block;
+  font-size: 0.78em;
+  padding: 0.2em 0.6em;
+  border-radius: 1em;
+  background-color: var(--global-code-bg-color);
+  color: var(--global-text-color);
+  border: 1px solid var(--global-divider-color);
+  white-space: nowrap;
+}
+
+.course-details-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: var(--global-theme-color);
+  background: none;
+  border: none;
+  padding: 0.3em 0;
+  cursor: pointer;
+  margin-top: 0.25em;
+
+  &:hover span:not(.toggle-icon) {
+    text-decoration: underline;
+  }
+
+  .toggle-icon {
+    transition: transform 0.2s ease;
+    font-size: 0.75em;
+    text-decoration: none;
+  }
+
+  &[aria-expanded="true"] .toggle-icon {
+    transform: rotate(90deg);
+  }
+}
+
+.course-details {
+  margin-top: 1em;
+}
+
+.sample-link {
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-bottom: 0.75em;
+  color: var(--global-theme-color);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  i {
+    margin-right: 0.3em;
+  }
+}
+
+.assignments-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.assignments-list li {
+  margin-bottom: 0.75em;
+  padding-left: 1.25em;
+  position: relative;
+  font-size: 0.92em;
+  line-height: 1.5;
+  color: var(--global-text-color);
+}
+
+.assignments-list li:before {
+  content: "\2022";
+  color: var(--global-theme-color);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
 }
 
 .project-description {
-    font-size: 1.05em;
-    margin-top: 1em;
-    margin-bottom: 1.5em;
-    color: var(--global-text-color-light);
-    line-height: 1.6;
+  font-size: 0.95em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  color: var(--global-text-color-light);
+  line-height: 1.6;
+}
+
+.course-media {
+  margin-top: 1em;
+}
+
+.course-media .caption {
+  font-size: 0.82em;
+  color: var(--global-text-color-light);
+  margin-top: 0.4em;
+  text-align: center;
 }
