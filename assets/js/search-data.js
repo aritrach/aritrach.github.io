@@ -16,9 +16,16 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
         },{id: "nav-coursework",
           title: "Coursework",
-          description: "Coursework and related projects that I have completed during my Master&#39;s 🎓",
+          description: "Selected coursework and projects from my graduate studies.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/coursework/";
@@ -30,29 +37,48 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "post-deep-transformer-q-networks-a-paper-analysis",
-      
-        title: 'Deep Transformer Q Networks — A paper analysis <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
         
-          window.open("https://medium.com/correll-lab/deep-transformer-q-networks-a-paper-analysis-e7efd9379e5f?source=rss-29bb353fcd25------2", "_blank");
+          title: 'Deep Transformer Q Networks — A paper analysis <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-clip-implementation-with-pre-trained-embeddings",
-      
-        title: 'CLIP implementation with pre-trained embeddings <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/correll-lab/deep-transformer-q-networks-a-paper-analysis-e7efd9379e5f?source=rss-29bb353fcd25------2", "_blank");
+          
+        },
+      },{id: "post-clip-implementation-with-pre-trained-embeddings",
         
-          window.open("https://medium.com/correll-lab/clip-implementation-with-pre-trained-embeddings-9b2eca91dc22?source=rss-29bb353fcd25------2", "_blank");
+          title: 'CLIP implementation with pre-trained embeddings <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/correll-lab/clip-implementation-with-pre-trained-embeddings-9b2eca91dc22?source=rss-29bb353fcd25------2", "_blank");
+          
+        },
+      },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/Chakrabarty_Resume.pdf", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
